@@ -1,0 +1,138 @@
+% Aidan Hunt
+% ME 498 K
+% Spring 2023
+% Homework 1
+
+\documentclass{homework}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{braket}
+\usepackage{bm}
+
+% Packages for presenting code
+\usepackage{pythonhighlight}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    }
+
+%use \question*{Title} to title a question
+
+% make short commands for subproblem listing
+\newcommand{\substart}{\begin{enumerate}[label={(\alph*)}]}
+\newcommand{\subend}{\end{enumerate}}
+
+%Instructor info
+\newcommand{\hwname}{Aidan Hunt}
+\newcommand{\hwemail}{ahunt94@uw.edu}
+
+%Assignment type
+\newcommand{\hwtype}{Homework}
+
+%Class info
+\newcommand{\hwclass}{ME 498 K}
+\newcommand{\hwterm}{Spring 2023}
+
+%Assignment specifics
+\newcommand{\hwnum}{2}
+\newcommand{\hwduedate}{April 14, 2023}
+
+% \newcommand{\uu}	    {{\mathrm{\textbf{u}}}}
+
+\begin{document}
+\maketitle
+
+In this homework, you will practice using lists, dictionaries, strings, and for loops. You will also practice reading documentation to learn how to use new data types and built-in methods that will help you accomplish this homework's tasks. If you have questions about this assignment, post them to the class discussion board for the fastest response. \textbf{Submit your response to each question as a separate file}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\question*{Reading up on Dictionaries}
+
+An important skill to develop as a programmer is the ability to read documentation and learn how to use new functions and data structures. In class, we walked through various aspects of how to use the \texttt{list} data structure, including how to create lists, index lists, and traverse lists, as well as list reference semantics. In this problem, you will repeat this for dictionaries, another built-in data structure.
+
+The questions below are examples of those you should ask when learning how to use a new data structure. Briefly respond (1-3 sentences) to each question below in your own words, and provide a code example that illustrates your answer. You should do this in a Jupyter Notebook, which will allow you to include "markdown cells" for your brief response and code cells for your coding examples. See the course notes on lists for guidance on formatting this type of mixed text/code document.
+
+I recommend consulting the Python documentation or A Whirlwind Tour of Python for guidance on dictionaries, although you are welcome to use any other resources to strengthen your understanding (good programmers are good at Googling things, after all). However, the examples you present \textbf{must be your own original work}. Note: you will likely include your responses to this question in your Python guide, so consider your future self when writing your answers!
+
+\begin{enumerate}
+
+    \item What are the components of a dictionary? Show the syntax for creating a dictionary by manually specifying the values of these components (e.g., like we manually created lists in lecture).
+
+    \item How can a dictionary be created from two existing lists? Show an example.
+
+    \item How do you access data that is stored in a dictionary? How can you add data to an existing dictionary? How can you remove data from an existing dictionary? Show an example of each.
+
+    \item Like lists, there are several different ways to traverse dictionaries using a for loop. Demonstrate at least 2 approaches and highlight why each approach might be useful.
+
+    \item Are dictionaries mutable? Illustrate your response with an example. Your response should consider both keys and values.
+
+    \item What kind of data is well represented by a dictionary, rather than a list? Why? \textbf{Note:} you do not need a code example for this question.
+
+\end{enumerate}
+
+Submit your response to this question to Gradescope as an \texttt{.ipynb} file.
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\question*{Word Search}
+
+\texttt{TheCode.txt} contains text from the \href{https://www.nspe.org/resources/ethics/code-ethics}{National Society of Professional Engineers Code of Ethics}, and \texttt{meWiki.txt} contains the text from the \href{https://en.wikipedia.org/wiki/Mechanical_engineering}{Wikipedia page on mechanical engineering}. Write a script that, for each file, parses the text and creates two dictionaries based on the contents:
+\begin{enumerate}
+    \item A dictionary whose keys are the letters of the alphabet. The value corresponding to each key should be a list of words in the text file that start with that letter. If a word occurs multiple times in the text file, you should include the word in the corresponding list each time it occurs. See \texttt{wordDict\_ethics.txt} and \texttt{wordDict\_me.txt} for target output (your script just needs to create dictionaries, not text files).
+    \item A dictionary whose keys are each \textbf{unique} word in the text file. The value corresponding to each key should be the number of times each word is found in that file. See \texttt{countDict\_ethics.txt} and \texttt{countDict\_me.txt} for target output.
+\end{enumerate}
+
+% Parsing the text
+You may assume that any sequence of letters is a valid "word". However, when determining the letter that a word starts with, as well as identifying unique words, you should not consider capitalization (i.e., `Engineer' is the same as `engineer'). Additionally, the words you identify should not include digits, and should not include punctuation. This will mean, for example, "engineer's" will be sorted/counted the same as "engineers", and "quasi-governmental" would be sorted/counted as "quasigovernmental". What characters count as punctuation? Take a look at the \texttt{punctuation} constant in the \texttt{string} module, which is described later in this specification.
+
+To read \texttt{TheCode.txt} or \texttt{meWiki.txt}, use the following code snippet (the \texttt{with} keyword ensures that the Python closes the file after it is opened and read):
+
+\begin{python}
+with open(textFile, 'r', encoding='utf-8') as file:
+    textData = file.read() # Extract the data from the text file
+\end{python}
+
+This will open the text file whose name is represented by the variable \texttt{textFile} and store the contents as a single string named \texttt{textData}. However, since we are interested in individual words in the file, you will need to find a way to convert this string into a sequence of individual words. In doing so, you may assume that individual words are separated by whitespace and/or linebreaks.
+
+To work with this text data, you'll want to become more familiar with the \texttt{str} data type. Like the \texttt{list} data type, the \texttt{str} data type has many helpful \href{https://www.w3schools.com/python/python_ref_string.asp}{built-in methods} you can use to perform operations on text. Additionally, the built-in \href{https://docs.python.org/3/library/string.html#module-string}{string module} defines several constants that you should use to help create your dictionaries. For example, rather than manually typing out all the letters in the alphabet, you can instead use:
+
+\begin{python}
+import string # Import the string module
+
+letters = string.ascii_lowercase # Get all lowercase letters
+\end{python}
+
+You may be tempted to use logical statements to sort words and filter punctuation. While this could be used to build a more sophisticated file parser, \textbf{you are not allowed to use if/else statements or logical operators to solve this problem}. Instead, you should consider the \texttt{list}, \texttt{dict}, and \text{str} methods that can help you solve the problem. % We don't need to reinvent the wheel! You also should not need any additional file-parsing code beyond what is shown above.
+
+% Discussion of organization and style
+Your code will be graded on whether it correctly produces the requested dictionaries, as well on whether it is well-organized, well-documented, and follows the Style Guide. As always, \textbf{you should define functions that represent distinct tasks} in order to structure your code and reduce redundancy. Each function that you define should include a docstring that describes all parameters, returns, and behavior, and your script should include a program summary at the beginning that describes, in general, what the script does.
+
+
+Submit your code to Gradescope as either \texttt{WordSearch.py} or \texttt{WordSearch.ipynb}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+% \question{Creative programming}
+
+% Write a Python program related to your engineering pursuits that demonstrates the use of \textbf{lists, dictionaries, and for loops}. Your program can be related to your other classes (past or present), research, job/internship, extracurriculars, or any other engineering topic. If you have an idea for a program topic but are unsure if it is appropriate, post on the Homework 1 page of the discussion board.
+
+% Your program should demonstrate how functions can be used to decompose an engineering problem into sub-problems, and should be well-structured and well-documented. In addition to satisfying the requirements in the Style Guide, your program should meet the following requirements.
+
+% \begin{itemize}
+%     \item Use X amount of functions
+%     \item Use at least one list
+%     \item Use at least one dictionary
+%     \item Use at least one for-loop and at least one list/dict comprehension
+% \end{itemize}
+
+% Additionally, your program should be able to run without requiring specialized hardware (e.g., connection to equipment that the instructor does not have access to). You are not restricted to the content we have covered; if you have Python experience and want to use content from later in the course or beyond, you may do so. As always, your code should follow the Style Guide: use descriptive variable and function names, include a docstring for each defined function, and include a short program summary. See the Style Guide for other guidelines and recommendations.
+
+% Submit your program as a \texttt{.py} or \texttt{.ipynb} file to Gradescope. Submit any supporting files (e.g., data files) as well if applicable.
+
+\end{document}
+

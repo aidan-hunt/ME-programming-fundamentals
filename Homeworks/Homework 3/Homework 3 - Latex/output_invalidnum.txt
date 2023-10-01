@@ -1,0 +1,20 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? trapezoidal
+What is the channel depth, y (m)? no
+Invalid input received. Please enter a positive number.
+What is the channel depth, y (m)? not gonna
+Invalid input received. Please enter a positive number.
+What is the channel depth, y (m)? okay fine
+Invalid input received. Please enter a positive number.
+What is the channel depth, y (m)? 0
+Invalid input received. Please enter a positive number.
+What is the channel depth, y (m)? -2
+Invalid input received. Please enter a positive number.
+What is the channel depth, y (m)? 4
+What is the channel bottom width, b (m)? 2
+What are the channel side slope ratio, m? 1
+What is the flow rate, Q (m^3/s)? 5
+
+Froude number =  0.04
+The flow is subcritical!

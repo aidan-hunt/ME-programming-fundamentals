@@ -1,0 +1,10 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? trapezoidal
+What is the channel depth, y (m)? 4
+What is the channel bottom width, b (m)? 1
+What are the channel side slope ratio, m? 1.5
+What is the flow rate, Q (m^3/s)? 400
+
+Froude number =  3.11
+The flow is supercritical!

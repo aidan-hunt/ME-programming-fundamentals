@@ -1,0 +1,9 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? Triangular
+What is the channel depth, y (m)? 3
+What are the channel side slope ratio, m? 1.5
+What is the flow rate, Q (m^3/s)? 20
+
+Froude number =  0.39
+The flow is subcritical!

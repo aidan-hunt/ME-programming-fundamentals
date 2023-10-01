@@ -1,0 +1,10 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? what?
+Please enter a valid channel shape: rectangular
+What is the channel depth, y (m)? 10
+What is the channel bottom width, b (m)? 20
+What is the flow rate, Q (m^3/s)? 500
+
+Froude number =  0.25
+The flow is subcritical!

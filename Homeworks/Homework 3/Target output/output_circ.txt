@@ -1,0 +1,9 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? CiRcUlAr
+What is the channel depth, y (m)? 2
+What is the channel diameter, d (m)? 2.5
+What is the flow rate, Q (m^3/s)? 40
+
+Froude number =  2.09
+The flow is supercritical!

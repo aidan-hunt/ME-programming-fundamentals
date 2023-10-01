@@ -1,0 +1,104 @@
+Profile Output Table - Standard Table 1
+HEC-RAS  Plan: Split Flow  Locations: User Defined 
+                                                                                                                                                                                       
+# Rivers            = 2 
+# Hydraulic Reaches = 4 
+# River Stations    = 23 
+# Plans             = 1 
+# Profiles          = 3 
+
+ River            Reach            River Sta        Profile            Q Total  Min Ch El  W.S. Elev  E.G. Elev E.G. Slope   Vel Chnl  Flow Area  Top Width Froude # Chl 
+                                                                         (cfs)       (ft)       (ft)       (ft)    (ft/ft)     (ft/s)    (sq ft)       (ft)              
+                                                                                                                                                                                       
+ Bryon Creek      Bryon Creek      639.             Low Water        1051.2130    63.8000    71.4619    71.9446     0.0011     5.5731   188.6227    35.3084       0.4251 
+ Bryon Creek      Bryon Creek      639.             Standard Flow    3167.3190    63.8000    76.5462    77.5783     0.0013     8.1495   388.6537    43.0192       0.4780 
+ Bryon Creek      Bryon Creek      639.             Flood            8080.5220    63.8000    83.7820    85.5626     0.0012    10.8741   805.9667    71.6622       0.4852 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      547.             Low Water        1051.2130    63.7300    71.3637    71.8397     0.0011     5.5346   189.9356    35.5867       0.4224 
+ Bryon Creek      Bryon Creek      547.             Standard Flow    3167.3190    63.7300    76.4353    77.4516     0.0013     8.0867   391.6698    43.5959       0.4756 
+ Bryon Creek      Bryon Creek      547.             Flood            8080.5220    63.7300    83.6973    85.4440     0.0011    10.7599   811.8241    71.7036       0.4807 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      452.             Low Water        1051.2130    63.6200    71.2629    71.7326     0.0011     5.4978   191.2056    35.9173       0.4201 
+ Bryon Creek      Bryon Creek      452.             Standard Flow    3167.3190    63.6200    76.3215    77.3234     0.0013     8.0294   394.4643    44.0968       0.4733 
+ Bryon Creek      Bryon Creek      452.             Flood            8080.5220    63.6200    83.6093    85.3259     0.0011    10.6584   817.2432    71.8035       0.4766 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      357.             Low Water        1051.2130    63.5500    71.1645    71.6276     0.0011     5.4586   192.5794    36.1802       0.4171 
+ Bryon Creek      Bryon Creek      357.             Standard Flow    3167.3190    63.5500    76.2078    77.1978     0.0013     7.9811   396.8512    44.6115       0.4718 
+ Bryon Creek      Bryon Creek      357.             Flood            8080.5220    63.5500    83.5247    85.2101     0.0011    10.5528   822.8892    71.8328       0.4725 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      265.             Low Water        1051.2130    63.4000    71.0745    71.5269     0.0010     5.3955   194.8325    36.5055       0.4117 
+ Bryon Creek      Bryon Creek      265.             Standard Flow    3167.3190    63.4000    76.1051    77.0765     0.0012     7.9061   400.6159    45.1668       0.4680 
+ Bryon Creek      Bryon Creek      265.             Flood            8080.5220    63.4000    83.4517    85.0996     0.0011    10.4273   830.3474    71.8555       0.4671 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      175.             Low Water        1051.2130    63.3500    70.9856    71.4315     0.0010     5.3567   196.2441    36.7650       0.4088 
+ Bryon Creek      Bryon Creek      175.             Standard Flow    3167.3190    63.3500    76.0013    76.9606     0.0012     7.8568   403.1288    45.6529       0.4661 
+ Bryon Creek      Bryon Creek      175.             Flood            8080.5220    63.3500    83.3764    84.9949     0.0010    10.3279   836.3451    71.8649       0.4630 
+                                                                                                                                                                         
+ Bryon Creek      Bryon Creek      80.              Low Water        1051.2130    63.2000    70.8965    71.3320     0.0010     5.2942   198.5592    37.0795       0.4033 
+ Bryon Creek      Bryon Creek      80.              Standard Flow    3167.3190    63.2000    75.8968    76.8397     0.0012     7.7896   406.6097    46.1763       0.4628 
+ Bryon Creek      Bryon Creek      80.              Flood            8080.5220    63.2000    83.3037    84.8868     0.0010    10.2080   843.8286    71.8579       0.4578 
+                                                                                                                                                                         
+ Spruce Creek     Upper River      1278.            Low Water        1500.0000    64.0000    71.9157    72.1155     0.0004     3.5858   418.7711    77.4330       0.2677 
+ Spruce Creek     Upper River      1278.            Standard Flow    5000.0000    64.0000    77.3258    77.8262     0.0005     5.7514   913.6819    98.5593       0.3153 
+ Spruce Creek     Upper River      1278.            Flood           15000.0000    64.0000    84.7341    86.0708     0.0006     9.5732  1744.1340   120.3000       0.4018 
+                                                                                                                                                                         
+ Spruce Creek     Upper River      1188.            Low Water        1500.0000    63.8000    71.8558    72.0766     0.0004     3.7740   402.9701    84.6155       0.2808 
+ Spruce Creek     Upper River      1188.            Standard Flow    5000.0000    63.8000    77.2295    77.7782     0.0005     6.0440   875.7393    90.9424       0.3317 
+ Spruce Creek     Upper River      1188.            Flood           15000.0000    63.8000    84.3896    85.9832     0.0008    10.4114  1598.0800   107.0000       0.4404 
+                                                                                                                                                                         
+ Spruce Creek     Upper River      1108.            Low Water        1500.0000    63.8000    71.8180    72.0421     0.0004     3.8005   399.7797    84.5813       0.2836 
+ Spruce Creek     Upper River      1108.            Standard Flow    4604.7400    63.8000    77.2522    77.7154     0.0004     5.5535   877.7974    90.9545       0.3044 
+ Spruce Creek     Upper River      1108.            Flood           12721.9600    63.8000    84.6807    85.7863     0.0005     8.6760  1629.2340   107.0000       0.3639 
+                                                                                                                                                                         
+ Spruce Creek     Upper River      1028.            Low Water        1500.0000    63.8000    71.8074    72.0008     0.0004     3.5275   425.9023    78.0470       0.2614 
+ Spruce Creek     Upper River      1028.            Standard Flow    4604.7400    63.8000    77.2556    77.6686     0.0004     5.2268   926.4885    98.7445       0.2849 
+ Spruce Creek     Upper River      1028.            Flood           12372.6200    63.8000    84.8024    85.6820     0.0004     7.7694  1774.2450   120.5000       0.3237 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     978.             Low Water         448.7872    63.8000    71.5289    71.9266     0.0013     5.0591    88.7084    16.7206       0.3872 
+ Spruce Creek     Middle River     978.             Standard Flow    1437.4210    63.8000    76.7167    77.5604     0.0016     7.3746   197.1124    28.3868       0.4470 
+ Spruce Creek     Middle River     978.             Flood            4292.1010    63.8000    84.1606    85.5687     0.0013    10.1313   519.4365    57.1459       0.4479 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     898.             Low Water         448.7872    63.6300    71.4386    71.8211     0.0012     4.9614    90.4554    16.9631       0.3788 
+ Spruce Creek     Middle River     898.             Standard Flow    1437.4210    63.6300    76.6056    77.4292     0.0015     7.2864   199.4485    28.3628       0.4409 
+ Spruce Creek     Middle River     898.             Flood            4292.1010    63.6300    84.0758    85.4590     0.0013    10.0326   524.2338    57.7367       0.4428 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     810.             Low Water         448.7872    63.5400    71.3392    71.7111     0.0012     4.8924    91.7317    17.1307       0.3727 
+ Spruce Creek     Middle River     810.             Standard Flow    1437.4210    63.5400    76.4865    77.2893     0.0015     7.1933   201.9955    28.5011       0.4353 
+ Spruce Creek     Middle River     810.             Flood            4292.1010    63.5400    83.9861    85.3425     0.0012     9.9224   529.4495    58.2909       0.4375 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     730.             Low Water         498.7872    63.4100    71.1320    71.5956     0.0015     5.4620    91.3196    17.1942       0.4178 
+ Spruce Creek     Middle River     730.             Standard Flow    1537.4210    63.4100    76.2113    77.1470     0.0018     7.7643   199.6399    27.9063       0.4738 
+ Spruce Creek     Middle River     730.             Flood            4792.1010    63.4100    83.3213    85.1769     0.0017    11.5355   501.4558    56.0003       0.5173 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     635.             Low Water         498.7872    63.2800    70.9984    71.4539     0.0014     5.4138    92.1320    17.3479       0.4142 
+ Spruce Creek     Middle River     635.             Standard Flow    1537.4210    63.2800    76.0560    76.9775     0.0017     7.7048   201.1158    28.0373       0.4713 
+ Spruce Creek     Middle River     635.             Flood            4792.1010    63.2800    83.1679    85.0144     0.0017    11.4832   502.3383    56.3173       0.5156 
+                                                                                                                                                                         
+ Spruce Creek     Middle River     550.             Low Water         498.7872    63.1500    70.8868    71.3285     0.0014     5.3316    93.5531    17.6085       0.4078 
+ Spruce Creek     Middle River     550.             Standard Flow    1537.4210    63.1500    75.9282    76.8273     0.0017     7.6106   203.6405    28.3224       0.4656 
+ Spruce Creek     Middle River     550.             Flood            4792.1010    63.1500    83.0518    84.8633     0.0016    11.3608   505.5564    55.6069       0.5099 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      480.             Low Water        1550.0000    63.1200    70.8371    71.2523     0.0009     5.1688   299.8775    55.7262       0.3928 
+ Spruce Creek     Lower River      480.             Standard Flow    4704.7400    63.1200    75.8246    76.7442     0.0010     7.6923   611.6198    69.3405       0.4566 
+ Spruce Creek     Lower River      480.             Flood           12872.6200    63.1200    82.8621    84.7691     0.0011    11.1675  1212.0270   100.9381       0.5066 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      385.             Low Water        1550.0000    63.0600    70.7192    71.1628     0.0010     5.3429   290.1035    56.6502       0.4162 
+ Spruce Creek     Lower River      385.             Standard Flow    4704.7400    63.0600    75.7051    76.6427     0.0011     7.7675   605.6964    70.1158       0.4659 
+ Spruce Creek     Lower River      385.             Flood           12872.6200    63.0600    82.7544    84.6657     0.0011    11.1747  1208.5800   100.8963       0.5095 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      285.             Low Water        1550.0000    62.9900    70.5964    71.0594     0.0011     5.4583   283.9691    57.5078       0.4330 
+ Spruce Creek     Lower River      285.             Standard Flow    4704.7400    62.9900    75.5930    76.5339     0.0011     7.7811   604.6340    70.8783       0.4697 
+ Spruce Creek     Lower River      285.             Flood           12872.6200    62.9900    82.6511    84.5520     0.0011    11.1400  1210.0760   100.8861       0.5092 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      185.             Low Water        1550.0000    62.9300    70.4812    70.9511     0.0011     5.4989   281.8762    58.2131       0.4406 
+ Spruce Creek     Lower River      185.             Standard Flow    4704.7400    62.9300    75.4893    76.4211     0.0011     7.7433   607.5878    71.7067       0.4690 
+ Spruce Creek     Lower River      185.             Flood           12872.6200    62.9300    82.5597    84.4348     0.0011    11.0589  1216.2380   100.8989       0.5060 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      95.              Low Water        1550.0000    62.8600    70.3902    70.8492     0.0011     5.4344   285.2177    58.9287       0.4355 
+ Spruce Creek     Lower River      95.              Standard Flow    4704.7400    62.8600    75.4108    76.3158     0.0011     7.6310   616.5292    72.5241       0.4614 
+ Spruce Creek     Lower River      95.              Flood           12872.6200    62.8600    82.4935    84.3242     0.0010    10.9237  1229.2640   100.9233       0.4989 
+                                                                                                                                                                         
+ Spruce Creek     Lower River      0.               Low Water        1550.0000    62.8000    70.3085    70.7443     0.0010     5.2955   292.7040    59.2598       0.4201 
+ Spruce Creek     Lower River      0.               Standard Flow    4704.7400    62.8000    75.3409    76.2082     0.0010     7.4706   629.7710    73.4613       0.4498 
+ Spruce Creek     Lower River      0.               Flood           12872.6200    62.8000    82.4351    84.2087     0.0010    10.7478  1247.0590   101.0675       0.4892 
+                                                                                                                                                                                       

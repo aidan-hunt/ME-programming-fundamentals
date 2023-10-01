@@ -1,0 +1,2 @@
+plotHECRAS(df, 'h', riverName='Spruce Creek', reachName='Waaaay upstream')
+Resulting DataFrame is empty: check function inputs.

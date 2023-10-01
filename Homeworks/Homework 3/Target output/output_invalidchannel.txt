@@ -1,0 +1,15 @@
+Running open channel flow assessment:
+
+What shape of channel cross-section? circle
+Please enter a valid channel shape: what?
+Please enter a valid channel shape: parabolic
+Please enter a valid channel shape: spherical
+Please enter a valid channel shape: 42
+Please enter a valid channel shape: -77
+Please enter a valid channel shape: rectangular
+What is the channel depth, y (m)? 5.5
+What is the channel bottom width, b (m)? 6.7
+What is the flow rate, Q (m^3/s)? 150
+
+Froude number =  0.55
+The flow is subcritical!

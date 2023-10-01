@@ -1,0 +1,2 @@
+plotHECRAS(riverData, 'conductivity')
+Column conductivity not found in the input DataFrame.
