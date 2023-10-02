@@ -1,5 +1,5 @@
 # ME-programming-fundamentals
-This repository contains lecture notes and homework assignments from "Programming Fundamentals for Mechanical Engineers", a course designed by *Aidan Hunt* and taught at the University of Washington. This course was created to provide mechanical engineering students with a strong, broadly applicable programming foundation and literacy. Although the course is taught in Python, the skills in the curriculum extend to other programming languages, such as MATLAB.
+This repository contains lecture notes and homework assignments from "Programming Fundamentals for Mechanical Engineers", a course designed by **Aidan Hunt** and taught at the University of Washington. This course was created to provide mechanical engineering students with a strong, broadly applicable programming foundation and literacy. Although the course is taught in Python, the skills in the curriculum extend to other programming languages, such as MATLAB.
 
 Lecture notes are provided as both Jupyter Notebooks and PDF files. Some lectures have corresponding .py files. These notes assume that you have already downloaded Python via a distribution of your choice (for engineers, I recommend Anaconda).
 
